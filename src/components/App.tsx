@@ -6,8 +6,6 @@ import Counter from './Counter'
 
 function App() {
 
-  const testVar = "test";
-
   return (
     <div className="app">
       <h1 className="app__title">Hello WebPack!</h1>
