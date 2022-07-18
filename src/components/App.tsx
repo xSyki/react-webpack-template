@@ -5,7 +5,6 @@ import reactLogo from '../assets/images/reactLogo.svg'
 import Counter from './Counter'
 
 function App() {
-
   return (
     <div className="app">
       <h1 className="app__title">Hello WebPack!</h1>
