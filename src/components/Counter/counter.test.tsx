@@ -1,4 +1,5 @@
-import { screen, render, fireEvent } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
+
 import Counter from './Counter'
 
 describe('Counter Component', () => {
@@ -6,7 +7,7 @@ describe('Counter Component', () => {
     render(<Counter />)
 
     expect(screen.getByText(/Current value: 0/)).toBeTruthy()
-    expect(screen.getByText(/Increace value by 1/)).toBeTruthy()
+    expect(screen.getByText(/Increase value by 1/)).toBeTruthy()
   })
 
   test('Does button increase counter', () => {

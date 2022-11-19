@@ -1,8 +1,9 @@
-import style from './app.module.scss'
-
-import webPackLogo from '../assets/images/webPackLogo.png'
 import reactLogo from '../assets/images/reactLogo.svg'
+import webPackLogo from '../assets/images/webPackLogo.png'
+
 import Counter from './Counter/Counter'
+
+import style from './app.module.scss'
 
 function App() {
   return (
